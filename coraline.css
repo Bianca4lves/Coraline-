@@ -1,0 +1,78 @@
+/* Geral */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+}
+/* TOPO */
+.topo, .rodape {
+    background-color: #B158D8;
+    width: 100%;
+    color: white;
+    padding: 20px 0;
+    font-family: sans-serif;
+}
+.topo span, a {
+    margin: 0 10px;
+}
+.topo span {
+    padding-left:250px;
+    font-size: 22px;
+}
+.topo a {
+    background-color: white;
+    color:#011039;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+/* CAPA */
+.capa img {
+    width: 100%;
+}
+/* CONTEUDO */
+.conteudo {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.conteudo h1 {
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 0;
+}
+.conteudo p {
+    line-height: 30px;
+    padding: 10px 0;
+}
+.conteudo img {
+    width: 100px;
+}
+/* PLATAFORMA */
+.plataforma {
+    padding: 0 450px;
+}
+/* CENAS */
+.cenas {
+    overflow-x: scroll;
+    display: flex;
+    margin: 0 auto 20px auto;
+}
+.cenas img {
+    width: 315px;
+    margin: 10px;
+}
+.sombra {
+    box-shadow: 10px 10px 10px #260343;
+}
+.conteudo a {
+    color: #0089C0;
+}
+/* RODAPE */
+.rodape {
+    text-align: center;
+}
